@@ -1,0 +1,29 @@
+extends ./view-template
+
+block styles
+    link(href='/public/css/home-style.css', rel='stylesheet', type='text/css')
+
+block content
+  nav.navbar.navbar-fixed-top
+    .container
+      .navbar-header
+        a.navbar-brand(href='/main')
+          img(src='https://s3-ap-northeast-1.amazonaws.com/unibee/imagesource/unibee_logo.png')
+
+      h5.navbar-text.navbar-right
+        | Team FG : 김정민, 박익비
+          
+  section.jumbotron
+    section.site-min-height
+      .container
+        img.img-responsive.center-block(src='https://s3-ap-northeast-1.amazonaws.com/unibee/imagesource/unibee_icon_shadow.png')
+        h2 Welcome to UniBee!
+        h3 With UniBee, you can collaborate on projects and share them in real time.
+        p.buttons
+          a.btn.btn-lg.btn-register(href='/auth/register', role='button') 회원가입
+          a.btn.btn-lg.btn-login(href='/auth/login', role='button') 로그인
+
+  .navbar.navbar-default.nav-footer
+    .container
+      .navbar-header
+        img.img-responsive(src='https://s3-ap-northeast-1.amazonaws.com/unibee/imagesource/duksung_logo.png')
