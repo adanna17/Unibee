@@ -1,0 +1,19 @@
+{
+  "name": "unibee",
+  "version": "1.0.0",
+  "description": "Duksung Women's University Digital Media Graduation FG 2016",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adanna17/Unibee.git"
+  },
+  "author": "KIM JUNG MIN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adanna17/Unibee/issues"
+  },
+  "homepage": "https://github.com/adanna17/Unibee#readme"
+}
